@@ -528,13 +528,13 @@ footer {
     font-size: 1.2rem;
   }
 
+  .se1,
   .se2,
   .se3,
   .se4,
   .se5 {
     height: auto !important;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 12px;
   }
 
   .se5 img {
