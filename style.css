@@ -454,13 +454,13 @@ footer {
   }
 
   .se2 .manfaatnya .kotak img {
-    width: 120px;
+    width: 160px;
   }
   .se2 .manfaatnya .kotak {
     padding: 10px;
-    width: 120px;
+    width: 160px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     height: fit-content;
   }
 
