@@ -422,6 +422,172 @@ footer .sosmed a {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 1600px) {
+  nav {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+  }
+  nav.desktop {
+    display: flex !important;
+  }
+  nav.mobile {
+    display: none !important;
+  }
+
+  nav .items {
+    height: auto;
+    gap: 1rem;
+  }
+
+  nav.mobile {
+    height: auto !important;
+  }
+  nav.mobile .logo {
+    width: 100px;
+    object-fit: contain;
+  }
+  .max-window {
+    max-width: 900px;
+    padding: 0px 20px;
+  }
+  .se1 .halaman,
+  .se1 .caption-1 {
+    width: 100% !important;
+  }
+  .se1 .home {
+    /* flex-direction: column; */
+    justify-content: start !important;
+    margin-top: 100px;
+    gap: 50px;
+  }
+  .se1 .aset {
+    width: 80% !important;
+  }
+
+  .se1 .order {
+    width: 246px;
+    font-size: 1.6rem;
+    height: 50px;
+    line-height: 1;
+  }
+
+  .title-text {
+    font-size: 2.1rem;
+  }
+
+  .se2 {
+    background-position: 100% 100%;
+  }
+
+  .se2 .manfaatnya .kotak img {
+    width: 140px;
+  }
+  .se2 .manfaatnya .kotak {
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    font-size: 1.2rem;
+    height: fit-content;
+  }
+
+  .paketnya {
+    width: 300px;
+    max-width: 300px;
+  }
+  .paketnya .bulan {
+    color: white;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .paketnya .jenis {
+    font-size: 1.2rem;
+    background-color: white;
+    line-height: 1;
+    padding: 4px 8px;
+    border-radius: 8px;
+    width: fit-content;
+    font-weight: 800;
+  }
+
+  .paketnya .coret,
+  .paketnya .coret span {
+    font-size: 1.2rem;
+    color: #d6f0ff;
+  }
+  .paketnya .real,
+  .paketnya .real span {
+    font-size: 1.3rem;
+  }
+
+  .se3 .paketnya .hemat {
+    color: #184d70;
+  }
+
+  .paketnya .hemat {
+    margin-top: 12px;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+
+  .paketnya .head,
+  .paketnya .body {
+    /* padding: 16px; */
+  }
+
+  .fitur-text {
+    font-size: 1.2rem;
+  }
+
+  .paketnya .head {
+    /* background: linear-gradient(45deg, rgba(37, 86, 116, 1) 0%, rgba(25, 120, 179, 1) 100%); */
+    border-radius: 12px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .body .isi {
+    font-size: 1rem;
+  }
+
+  .caption {
+    font-size: 1.2rem;
+  }
+
+  .se4 .halaman {
+    margin-top: 40px;
+  }
+
+  .se1,
+  .se2,
+  .se3,
+  .se4,
+  .se5 {
+    /* height: auto !important; */
+    padding: 40px 12px;
+  }
+  .se4,
+  .se5 {
+    height: auto !important;
+  }
+
+  .se5 img {
+    width: 280px;
+    padding: 4px;
+  }
+
+  .se5 .img {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #bde6ff;
+    border-radius: 10px;
+    justify-content: center;
+    height: 240px;
+  }
+}
+
 @media screen and (max-width: 620px) and (orientation: portrait) {
   nav {
     position: fixed;
