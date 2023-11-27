@@ -459,7 +459,7 @@ footer {
   }
 
   .title-text {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
   }
 
   .se2 {
@@ -467,11 +467,11 @@ footer {
   }
 
   .se2 .manfaatnya .kotak img {
-    width: 160px;
+    width: 140px;
   }
   .se2 .manfaatnya .kotak {
     padding: 10px;
-    width: 160px;
+    width: 140px;
     text-align: center;
     font-size: 1.2rem;
     height: fit-content;
