@@ -31,9 +31,27 @@
         </div>
       </div>
     </nav>
-    <nav class="w-100 d-none mobile">
-      <div class="max-window navbar">
-        <img src="bahan/logo.png" alt="" class="logo" />
+    <nav class="w-100 d-none mobile d-flex flex-column justify-content-center py-2">
+      <div class="max-window w-100 navbar flex-row d-flex justify-content-between align-items-center">
+        <img src="bahan/menu.svg" alt="" class="logo" width="50px" height="50px" />
+        <img src="bahan/menu.svg" alt="" class="menu" width="50px" height="50px" />
+      </div>
+      <div class="ditoggle" style="display: none">
+        <div class="toggle-nav w-100 items d-flex flex-column px-4 bg-white mt-4">
+          <a href="#home" class="aktif">Home</a>
+          <a href="#fitur">Fitur</a>
+          <a href="#paket">Paket</a>
+          <a href="#contoh">Contoh</a>
+
+          <div class="login-daftar mt-4">
+            <div class="akun d-flex align-items-center justify-content-end">
+              <div class="masuk">Masuk</div>
+              <div class="daftar-parent">
+                <div class="daftar">Daftar</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
     <div id="home" class="se1 w-100 vh-100 d-flex justify-content-center">
@@ -301,29 +319,9 @@
 </html>
 
 <script>
-  let komen = [
-    { nama: "Ali", komentar: "maximize integrated users", bintang: 4 },
-    { nama: "Rowland", komentar: "seize cross-platform channels", bintang: 5 },
-    { nama: "Yolane", komentar: "unleash ubiquitous eyeballs", bintang: 1 },
-    { nama: "Ivett", komentar: "e-enable transparent web-readiness", bintang: 5 },
-    { nama: "Mechelle", komentar: "disintermediate customized e-business", bintang: 3 },
-    { nama: "Fields", komentar: "transform scalable e-services", bintang: 4 },
-    { nama: "Tabitha", komentar: "unleash viral applications", bintang: 5 },
-    { nama: "Aindrea", komentar: "enable strategic bandwidth", bintang: 1 },
-    { nama: "Jaclin", komentar: "engage world-class e-commerce", bintang: 5 },
-    { nama: "Scott", komentar: "incentivize e-business interfaces", bintang: 3 },
-    { nama: "Freeland", komentar: "deliver distributed channels", bintang: 4 },
-    { nama: "Laetitia", komentar: "deploy sticky e-services", bintang: 5 },
-    { nama: "Norbie", komentar: "e-enable cross-media metrics", bintang: 1 },
-    { nama: "Nancy", komentar: "unleash scalable platforms", bintang: 2 },
-    { nama: "Bernard", komentar: "incubate sticky ROI", bintang: 3 },
-    { nama: "Gennie", komentar: "recontextualize efficient communities", bintang: 4 },
-    { nama: "Dionysus", komentar: "syndicate plug-and-play synergies", bintang: 5 },
-    { nama: "Raimundo", komentar: "generate B2B synergies", bintang: 5 },
-    { nama: "Ward", komentar: "integrate customized web-readiness", bintang: 5 },
-    { nama: "Thatcher", komentar: "visualize impactful mindshare", bintang: 5 },
-  ];
-
+  $(document).on("click", ".menu", function () {
+    $(".ditoggle").fadeToggle("slow");
+  });
   $(document).on("click", "nav .items a", function () {
     $("nav .items a").removeClass("aktif");
     $(this).addClass("aktif");

@@ -413,8 +413,21 @@ footer {
     display: flex !important;
   }
 
+  nav .items {
+    height: auto;
+    gap: 1rem;
+  }
+
+  nav .items a {
+    padding: 0 11px;
+  }
+
+  nav .items a:hover {
+    border-bottom: none;
+  }
+
   nav.mobile {
-    height: 80px !important;
+    height: auto !important;
   }
   nav.mobile .logo {
     width: 100px;

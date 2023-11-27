@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="256px" height="205px" viewBox="0 0 256 205" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M256 0L256 0L256 205L0 205L0 0L256 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Icon 256" clip-path="url(#clip_1)">
+    <path d="M256 0L256 0L256 205L0 205L0 0L256 0Z" id="Icon-256" fill="none" stroke="none" />
+    <g id="Group" transform="translate(32 39)">
+      <path d="M0 1L191 1" id="Line" fill="none" fill-rule="evenodd" stroke="#3A76EF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 125L191 125" id="Line-2" fill="none" fill-rule="evenodd" stroke="#3A76EF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 63L191 63" id="Line-3" fill="none" fill-rule="evenodd" stroke="#3A76EF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>
