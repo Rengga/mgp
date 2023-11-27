@@ -394,32 +394,6 @@ nav .akun .daftar:hover {
   background-repeat: no-repeat;
   background-position: 0% 100%;
 }
-.se5 .halaman .page {
-  font-weight: 500;
-  gap: 20px;
-}
-.se5 .hub {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80px;
-  width: 420px;
-  background: #bde6ff;
-  border: 6px solid #1978b3;
-  border-radius: 46px;
-  font-size: 3rem;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.se5 .hub:hover {
-  background: #1978b3;
-  color: white;
-}
-
-.se5 .or {
-  font-size: 2rem;
-}
 
 footer {
   height: 30vh;
@@ -563,6 +537,18 @@ footer {
     padding-bottom: 40px;
   }
 
-  .se4 {
+  .se5 img {
+    width: 280px;
+    padding: 4px;
+  }
+
+  .se5 .img {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #bde6ff;
+    border-radius: 10px;
+    justify-content: center;
+    height: 240px;
   }
 }
