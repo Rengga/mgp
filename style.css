@@ -272,12 +272,13 @@ nav .akun .daftar:hover {
 }
 
 .se5 img {
-  width: 420px;
+  width: 410px;
   padding: 4px;
 }
 
 .se5 .img {
   width: 420px;
+  padding: 4px;
   display: flex;
   align-items: center;
   background-color: #bde6ff;
@@ -396,8 +397,29 @@ nav .akun .daftar:hover {
 }
 
 footer {
-  height: 30vh;
+  height: 300px;
   background-color: #184d70;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+footer div {
+  color: white !important;
+  font-size: 1.5rem;
+}
+
+footer a {
+  color: white !important;
+}
+
+footer .sosmed {
+  padding: 8px 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+footer .sosmed a {
+  color: #184d70 !important;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 620px) and (orientation: portrait) {
