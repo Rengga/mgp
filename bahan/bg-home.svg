@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1920px" height="1080px" viewBox="0 0 1920 1080" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M1920 0L1920 0L1920 1080L0 1080L0 0L1920 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Full HD" clip-path="url(#clip_1)">
+    <path d="M1920 0L1920 0L1920 1080L0 1080L0 0L1920 0Z" id="Full-HD" fill="none" stroke="none" />
+    <path d="M-60 294C-60 294 247.138 261.034 608.001 491C968.863 720.966 1118.47 1005.95 1739.5 1027C2360.53 1048.05 2258.5 1062.5 2258.5 1062.5L2160.5 1260.5L-57 1181.5L-60 294Z" id="Vector" fill="#8AD2FF" fill-opacity="0.2" fill-rule="evenodd" stroke="none" />
+    <path d="M-83 1040C-83 1040 422.64 1085.62 1027 908.5C1631.36 731.383 1995.72 689.784 2187.5 846C2379.28 1002.22 1864.5 1208.5 1864.5 1208.5L-120.5 1169L-83 1040Z" id="Vector" fill="#FFBC41" fill-opacity="0.29803923" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
