@@ -55,6 +55,9 @@ nav .items a {
 nav .items a:hover {
   border-bottom: 2px solid white;
 }
+nav.desktop.aktif .items a:hover {
+  border-bottom: 2px solid #184d70;
+}
 
 nav .items a.aktif {
   background-color: #184d70;

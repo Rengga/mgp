@@ -18,10 +18,10 @@
       <div class="navbar w-100 max-window d-flex justify-content-between align-items-center">
         <img src="bahan/logo.svg" alt="" class="logo" />
         <div class="items d-flex align-content-center">
-          <a href="#home" class="aktif">Home</a>
-          <a href="#fitur">Fitur</a>
-          <a href="#paket">Paket</a>
-          <a href="#contoh">Tampilan</a>
+          <a href="#home" class="ahome aktif">Home</a>
+          <a href="#fitur" class="afitur">Fitur</a>
+          <a href="#paket" class="apaket">Paket</a>
+          <a href="#contoh" class="acontoh">Tampilan</a>
         </div>
         <div class="akun d-flex align-items-center">
           <div class="masuk">Masuk</div>
@@ -38,10 +38,10 @@
       </div>
       <div class="ditoggle" style="display: none">
         <div class="toggle-nav w-100 items d-flex flex-column px-4 bg-white mt-4">
-          <a href="#home" class="aktif">Home</a>
-          <a href="#fitur">Fitur</a>
-          <a href="#paket">Paket</a>
-          <a href="#contoh">Tampilan</a>
+          <a href="#home" class="ahome aktif">Home</a>
+          <a href="#fitur" class="afitur">Fitur</a>
+          <a href="#paket" class="apaket">Paket</a>
+          <a href="#contoh" class="acontoh">Tampilan</a>
 
           <div class="login-daftar mt-4">
             <div class="akun d-flex align-items-center justify-content-end">
@@ -337,18 +337,48 @@
     $("nav.mobile").toggleClass("aktif");
   });
   $(document).on("click", "nav .items a", function () {
-    $("nav .items a").removeClass("aktif");
-    $(this).addClass("aktif");
+    // $("nav .items a").removeClass("aktif");
+    // $(this).addClass("aktif");
   });
 
   $(window).scroll(function () {
     let scroll = $(window).scrollTop();
     if (scroll > 10) {
       $("nav").css({ background: "white" });
-      $("nav .items a:not(.aktif), nav .akun .masuk").css("color", "#184d70");
+      $("nav.desktop").addClass("aktif");
+      // $("nav .items a:not(.aktif), nav .akun .masuk").css("color", "#184d70");
     } else {
       $("nav").css({ background: "transparent" });
+      $("nav.desktop").removeClass("aktif");
+      // $("nav .items a:not(.aktif), nav .akun .masuk").css("color", "white");
+    }
+  });
+
+  $(window).on("scroll touchmove", function () {
+    if ($(document).scrollTop() == $(".se1").position().top) {
       $("nav .items a:not(.aktif), nav .akun .masuk").css("color", "white");
+      $("nav .items a").removeClass("aktif");
+      $(".ahome").addClass("aktif");
+    }
+    if ($(document).scrollTop() > $(".se1").position().top) {
+      $("nav .items a").removeClass("aktif");
+      $(".ahome").addClass("aktif");
+      $("nav .items a:not(.aktif), nav .akun .masuk").css("color", "#184d70");
+    }
+    if ($(document).scrollTop() >= $(".se2").position().top) {
+      $("nav .items a").removeClass("aktif");
+      $(".afitur").addClass("aktif");
+      $("nav .items a:not(.aktif), nav .akun .masuk").css("color", "#184d70");
+    }
+    if ($(document).scrollTop() >= $(".se3").position().top) {
+      $("nav .items a").removeClass("aktif");
+      $(".apaket").addClass("aktif");
+      $("nav .items a:not(.aktif), nav .akun .masuk").css("color", "#184d70");
+    }
+    if ($(document).scrollTop() >= $(".se4").position().top) {
+      $("nav .items a").removeClass("aktif");
+      $(".acontoh").addClass("aktif");
+      $("nav .items a:not(.aktif), nav .akun .masuk").css("color", "#184d70");
     }
   });
 </script>
