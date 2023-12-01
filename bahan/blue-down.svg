@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1920px" height="530px" viewBox="0 0 1920 530" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M1920 0L1920 0L1920 530L0 530L0 0L1920 0Z" id="path_1" />
+    <path d="M1983.99 136.916C1983.98 136.916 1698.83 167.124 1376.08 92.9197C1053.33 18.7154 845.166 34.7478 530.579 57.879C215.993 81.0101 -29.5029 35.5466 -61.421 9.96007C-93.3389 -15.6266 101.166 -28.4452 122.58 -27.6264C143.994 -26.8076 1983.99 -10.8547 1983.99 -10.8547C1983.99 -10.8547 1984.01 136.916 1983.99 136.916Z" id="path_2" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+  </defs>
+  <g id="Full HD Copy 4" clip-path="url(#clip_1)">
+    <path d="M1920 0L1920 0L1920 530L0 530L0 0L1920 0Z" id="Full-HD-Copy-4" fill="none" stroke="none" />
+    <g id="Vector-Copy">
+      <g clip-path="url(#clip_2)">
+        <use xlink:href="#path_2" fill="none" stroke="#3A76EF" stroke-width="12" />
+      </g>
+    </g>
+    <path d="M1983.99 108.839C1983.98 108.839 1698.83 139.048 1376.08 64.8433C1053.33 -9.36106 845.166 6.67142 530.579 29.8026C215.993 52.9337 -29.5029 7.47017 -61.421 -18.1163C-93.3389 -43.703 101.166 -56.5216 122.58 -55.7028C143.994 -54.884 1983.99 -38.9312 1983.99 -38.9312C1983.99 -38.9312 1984.01 108.839 1983.99 108.839Z" id="Vector" fill="#3A76EF" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>

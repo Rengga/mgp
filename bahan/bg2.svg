@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1920px" height="1080px" viewBox="0 0 1920 1080" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M1920 0L1920 0L1920 1080L0 1080L0 0L1920 0Z" id="path_1" />
+    <path d="M-63.9941 692.099C-63.9807 692.099 221.169 591.234 543.921 839C866.672 1086.77 1074.83 1033.23 1389.42 956C1704.01 878.766 1949.5 1030.57 1981.42 1116C2013.34 1201.43 1818.83 1244.23 1797.42 1241.5C1776.01 1238.77 -63.9941 1185.5 -63.9941 1185.5C-63.9941 1185.5 -64.0074 692.099 -63.9941 692.099Z" id="path_2" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+  </defs>
+  <g id="Full HD Copy 6" clip-path="url(#clip_1)">
+    <path d="M1920 0L1920 0L1920 1080L0 1080L0 0L1920 0Z" id="Full-HD-Copy-6" fill="#3A76EF" stroke="none" />
+    <path d="M-63.9941 656.099C-63.9807 656.099 221.169 555.234 543.921 803C866.672 1050.77 1074.83 997.234 1389.42 920C1704.01 842.766 1949.5 994.567 1981.42 1080C2013.34 1165.43 1818.83 1208.23 1797.42 1205.5C1776.01 1202.77 -63.9941 1149.5 -63.9941 1149.5C-63.9941 1149.5 -64.0074 656.099 -63.9941 656.099Z" id="Vector" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    <g id="Vector-Copy">
+      <g clip-path="url(#clip_2)">
+        <use xlink:href="#path_2" fill="none" stroke="#3A76EF" stroke-width="12" />
+      </g>
+    </g>
+  </g>
+</svg>
